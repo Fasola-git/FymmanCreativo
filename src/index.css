@@ -1,0 +1,328 @@
+@charset "UTF-8";
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+@font-face {
+  font-family: "lovelo";
+  src: url("../../public/fonts/otf/Lovelo Black.otf") format("truetype");
+}
+
+
+@font-face {
+  font-family: 'azo-sans';
+  src: url('../../public/fonts/azo-sans/AzoSans-BoldItalic.eot');
+  src: local('../../public/fonts/azo-sans/Azo Sans Bold Italic'), local('AzoSans-BoldItalic'),
+      url('../../public/fonts/azo-sans/AzoSans-BoldItalic.eot?#iefix') format('embedded-opentype'),
+      url('../../public/fonts/azo-sans/AzoSans-BoldItalic.woff2') format('woff2'),
+      url('../../public/fonts/azo-sans/AzoSans-BoldItalic.woff') format('woff'),
+      url('../../public/fonts/azo-sans/AzoSans-BoldItalic.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'azo-sans';
+  src: url('../../public/fonts/azo-sans/AzoSans-Thin.eot');
+  src: local('../../public/fonts/azo-sans/Azo Sans Thin'), local('AzoSans-Thin'),
+      url('../../public/fonts/azo-sans/AzoSans-Thin.eot?#iefix') format('embedded-opentype'),
+      url('../../public/fonts/azo-sans/AzoSans-Thin.woff2') format('woff2'),
+      url('../../public/fonts/azo-sans/AzoSans-Thin.woff') format('woff'),
+      url('../../public/fonts/azo-sans/AzoSans-Thin.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'azo-sans';
+  src: url('../../public/fonts/azo-sans/AzoSans-LightItalic.eot');
+  src: local('../../public/fonts/azo-sans/Azo Sans Light Italic'), local('AzoSans-LightItalic'),
+      url('../../public/fonts/azo-sans/AzoSans-LightItalic.eot?#iefix') format('embedded-opentype'),
+      url('../../public/fonts/azo-sans/AzoSans-LightItalic.woff2') format('woff2'),
+      url('../../public/fonts/azo-sans/AzoSans-LightItalic.woff') format('woff'),
+      url('../../public/fonts/azo-sans/AzoSans-LightItalic.ttf') format('truetype');
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'azo-sans';
+  src: url('../../public/fonts/azo-sans/AzoSans-ThinItalic.eot');
+  src: local('../../public/fonts/azo-sans/Azo Sans Thin Italic'), local('AzoSans-ThinItalic'),
+      url('../../public/fonts/azo-sans/AzoSans-ThinItalic.eot?#iefix') format('embedded-opentype'),
+      url('../../public/fonts/azo-sans/AzoSans-ThinItalic.woff2') format('woff2'),
+      url('../../public/fonts/azo-sans/AzoSans-ThinItalic.woff') format('woff'),
+      url('../../public/fonts/azo-sans/AzoSans-ThinItalic.ttf') format('truetype');
+  font-weight: 100;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'azo-sans';
+  src: url('../../public/fonts/azo-sans/AzoSans-Regular.eot');
+  src: local('../../public/fonts/azo-sans/Azo Sans Regular'), local('AzoSans-Regular'),
+      url('../../public/fonts/azo-sans/AzoSans-Regular.eot?#iefix') format('embedded-opentype'),
+      url('../../public/fonts/azo-sans/AzoSans-Regular.woff2') format('woff2'),
+      url('../../public/fonts/azo-sans/AzoSans-Regular.woff') format('woff'),
+      url('../../public/fonts/azo-sans/AzoSans-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'azo-sans';
+  src: url('../../public/fonts/azo-sans/AzoSans-MediumItalic.eot');
+  src: local('../../public/fonts/azo-sans/Azo Sans Medium Italic'), local('AzoSans-MediumItalic'),
+      url('../../public/fonts/azo-sans/AzoSans-MediumItalic.eot?#iefix') format('embedded-opentype'),
+      url('../../public/fonts/azo-sans/AzoSans-MediumItalic.woff2') format('woff2'),
+      url('../../public/fonts/azo-sans/AzoSans-MediumItalic.woff') format('woff'),
+      url('../../public/fonts/azo-sans/AzoSans-MediumItalic.ttf') format('truetype');
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'azo-sans';
+  src: url('../../public/fonts/azo-sans/AzoSans-Black.eot');
+  src: local('../../public/fonts/azo-sans/Azo Sans Black'), local('AzoSans-Black'),
+      url('../../public/fonts/azo-sans/AzoSans-Black.eot?#iefix') format('embedded-opentype'),
+      url('../../public/fonts/azo-sans/AzoSans-Black.woff2') format('woff2'),
+      url('../../public/fonts/azo-sans/AzoSans-Black.woff') format('woff'),
+      url('../../public/fonts/azo-sans/AzoSans-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'azo-sans';
+  src: url('../../public/fonts/azo-sans/AzoSans-BlackItalic.eot');
+  src: local('../../public/fonts/azo-sans/Azo Sans Black Italic'), local('AzoSans-BlackItalic'),
+      url('../../public/fonts/azo-sans/AzoSans-BlackItalic.eot?#iefix') format('embedded-opentype'),
+      url('../../public/fonts/azo-sans/AzoSans-BlackItalic.woff2') format('woff2'),
+      url('../../public/fonts/azo-sans/AzoSans-BlackItalic.woff') format('woff'),
+      url('../../public/fonts/azo-sans/AzoSans-BlackItalic.ttf') format('truetype');
+  font-weight: 900;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'azo-sans';
+  src: url('../../public/fonts/azo-sans/AzoSans-Medium.eot');
+  src: local('../../public/fonts/azo-sans/Azo Sans Medium'), local('AzoSans-Medium'),
+      url('../../public/fonts/azo-sans/AzoSans-Medium.eot?#iefix') format('embedded-opentype'),
+      url('../../public/fonts/azo-sans/AzoSans-Medium.woff2') format('woff2'),
+      url('../../public/fonts/azo-sans/AzoSans-Medium.woff') format('woff'),
+      url('../../public/fonts/azo-sans/AzoSans-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'azo-sans';
+  src: url('../../public/fonts/azo-sans/AzoSans-Light.eot');
+  src: local('../../public/fonts/azo-sans/Azo Sans Light'), local('AzoSans-Light'),
+      url('../../public/fonts/azo-sans/AzoSans-Light.eot?#iefix') format('embedded-opentype'),
+      url('../../public/fonts/azo-sans/AzoSans-Light.woff2') format('woff2'),
+      url('../../public/fonts/azo-sans/AzoSans-Light.woff') format('woff'),
+      url('../../public/fonts/azo-sans/AzoSans-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'azo-sans';
+  src: url('../../public/fonts/azo-sans/AzoSans-Italic.eot');
+  src: local('../../public/fonts/azo-sans/Azo Sans Italic'), local('AzoSans-Italic'),
+      url('../../public/fonts/azo-sans/AzoSans-Italic.eot?#iefix') format('embedded-opentype'),
+      url('../../public/fonts/azo-sans/AzoSans-Italic.woff2') format('woff2'),
+      url('../../public/fonts/azo-sans/AzoSans-Italic.woff') format('woff'),
+      url('../../public/fonts/azo-sans/AzoSans-Italic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'azo-sans';
+  src: url('../../public/fonts/azo-sans/AzoSans-Bold.eot');
+  src: local('../../public/fonts/azo-sans/Azo Sans Bold'), local('AzoSans-Bold'),
+      url('../../public/fonts/azo-sans/AzoSans-Bold.eot?#iefix') format('embedded-opentype'),
+      url('../../public/fonts/azo-sans/AzoSans-Bold.woff2') format('woff2'),
+      url('../../public/fonts/azo-sans/AzoSans-Bold.woff') format('woff'),
+      url('../../public/fonts/azo-sans/AzoSans-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: "gotham";
+  src: url("./../public/fonts/gotham/Gotham-BoldItalic.otf") format("truetype");
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'gotham';
+  src: url("./../public/fonts/gotham/Gotham-Thin.otf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'gotham';
+  src: url("./../public/fonts/gotham/Gotham-LightItalic.otf") format("truetype");
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'gotham';
+  src: url("./../public/fonts/gotham/Gotham-ThinItalic.otf") format("truetype");
+  font-weight: 100;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'gotham';
+  src: url("./../public/fonts/gotham/Gotham-Medium.otf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'gotham';
+  src: url("./../public/fonts/gotham/Gotham-MediumItalic.otf") format("truetype");
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'gotham';
+  src: url("./../public/fonts/gotham/Gotham-Black.otf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'gotham';
+  src: url("./../public/fonts/gotham/Gotham-BlackItalic.otf") format("truetype");
+  font-weight: 900;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'gotham';
+  src: url("./../public/fonts/gotham/Gotham-Medium.otf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'gotham';
+  src: url("./../public/fonts/gotham/Gotham-Light.otf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'gotham-b';
+  src: url("./../public/fonts/gotham/Gotham-Book.otf") format("truetype");
+}
+
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+p, button, h3, a{
+  font-family: 'azo-sans';
+  font-size: larger;
+  font-weight: 500;
+}
+
+h1{
+  font-family: 'lovelo';
+}
+
+h6{
+  font-family: 'barlow';
+  font-weight: 700;
+}
+
+h2{
+  font-family: 'gotham';
+  font-size: larger;
+  font-weight: 900;
+}
+
+.Marquee{
+  mask-image: linear-gradient(
+        to right,
+        hsl(0 0% 0% / 0),
+        hsl(0 0% 0% / 1) 10%,
+        hsl(0 0% 0% / 1) 90%,
+        hsl(0 0% 0% / 0)
+  );
+}
+
+section.top {
+  border-bottom: 2px solid rgb(255 255 255 / 20%);
+}
+
+.menu > li:hover > button::before {
+  visibility: visible;
+  scale: 1 1;
+}
+
+.menu > li > button::before {
+  scale: 0 0;
+}
