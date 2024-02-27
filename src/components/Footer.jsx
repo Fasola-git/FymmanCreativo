@@ -1,19 +1,16 @@
 
 export default function Footer(){
-   
+   /* CAMBIAR ICONO FOOTER */
     return(
         <>
-        <footer className=" left-0 bottom-0 w-full bg-9 pt-[5dvh]">
-            <section class=" top flex gap-[60%] justify-center align-middle items-center">
-                <a href="https://www.fymmancreativo.com/">
-                    <div className="flex items-center px-5">
-                        <div className=" bg-2 flex justify-center rounded-full w-14">
-                            <img src="../../public/img/logo.png" alt="fymannlogo" />
-                        </div>
-                        <h1 className="text-base text-2 ps-2">FYMANN <h6 className="text-2xl text-3">CREATIVO</h6></h1>
-                    </div>
-                </a>
-                <div class=" flex flex-col px-5 items-center">
+        <footer className=" left-0 bottom-0 w-full bg-9 pt-[3dvh]">
+            <section class=" top flex gap-[60%] justify-center align-middle items-center flex-wrap">
+                <div className="flex justify-center min-w-[20%] mb-1">
+                    <a href="https://www.fymmancreativo.com/" className=" cursor-pointer w-1/2 min-w-58">
+                            <img src="../../public/img/LOGO_BASE_BLANCO.svg" className="w-full cursor-pointer min-w-full " alt="fymannlogo" />
+                    </a>
+                </div>                    
+                <div class=" flex flex-col px-10 items-center">
                     <div className="flex text-2 items-center">
                         <i class="fa-solid fa-phone text-xl w-8 h-8 text-3 grid place-items-center pb-1"></i>
                         <p className="text-sm cursor-default">+54 9 381 466 7211</p>

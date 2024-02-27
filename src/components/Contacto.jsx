@@ -1,6 +1,6 @@
 
 export default function Contacto(){
-      
+      /* SUMAR A CONTACTO TRABAJEMOS JUNTOS */
     return(
         <>
             <div id="Contacto" className="min-h-[75dvh] flex flex-col ">
@@ -52,8 +52,20 @@ export default function Contacto(){
                         <svg stroke="currentColor" fill="currentColor" stroke-width="100" viewBox="0 0 512 512" height="4rem" width="4rem" class="text-accent text-xl sm:text-2xl text-8 mb-1" xmlns="http://www.w3.org/2000/svg" transform="rotate(180)"><path d="M192 128l128 128-128 128z"></path></svg>
                         </a>
                     </div>
-                </div>
 
+                    <div className="pb-[5dvh]">
+                        <div className="flex flex-row justify-around ">
+                            <h2 className="text-6 text-6xl basis-1/3 my-5">Trabajemos Juntos</h2>
+                            <div></div>
+                            <div></div>
+                        </div>
+                        <p className="text-3xl text-9 mx-[10%] text-justify leading-normal">Nuestro trabajo es brindar soluciones a nuestros clientes, teniendo
+                        en cuenta, que cada Rubro requiere un análisis previo para  afrontar
+                        las acciones necesarias que aportan, desde la Creatividad y el trabajo
+                        en equipo, una visión de crecimiento y prestigio visual que la sociedad 
+                         y la actualidad demanda de cada Empresa y/o Marca </p>
+                    </div>
+                </div>
                 <div className="flex flex-col gap-8 bg-6 bg-cover bg-no-repeat bg-[center_bottom_-0rem]" style={{backgroundImage: 'url("../../public/img/Ondas3.svg")'}}>
                     <div className="flex flex-row justify-around mt-10">
                         <div className="flex gap-3 basis-1/3">
