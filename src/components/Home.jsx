@@ -7,7 +7,7 @@ export default function Home() {
                 <div className=" flex flex-col gap-10 lg:gap-0 lg:flex lg:flex-row lg:justify-evenly lg:items-center lg:basis-4/5">
                     <div className="grid gap-5 lg:flex lg:flex-col lg:gap-16 lg:w-1/3">
                         <div className="pl-6 lg:pl-0 lg:flex lg:flex-col lg:gap-6">
-                            <h1 className="lg:text-4xl text-7 lg:ps-1">FYMANN <h6 className=" text-3xl  lg:text-6xl text-3">CREATIVO</h6></h1>
+                            <h1 className="lg:text-4xl text-7 lg:ps-1">FYMMAN <h6 className=" text-3xl  lg:text-6xl text-3">CREATIVO</h6></h1>
                             <p className="lg:text-4xl lg:ps-3 text-9">Agencia de Publicidad & Maketing Digital</p>
                             <h2 className="text-3xl  lg:text-6xl text-7">HAGAMOS ALGO DE <span className=" text-3">CREATIVIDAD</span></h2>
                         </div>
