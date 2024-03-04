@@ -3,12 +3,13 @@ export default function Nosotros(){
     
     return(
         <>
-            <div id="Nosotros" className="min-h-[90dvh] flex flex-col items-center pt-[8dvh] justify-evenly lg:pt-[5dvh] bg-cover bg-no-repeat bg-[center_bottom_-0rem]" style={{backgroundImage: 'url("../../public/img/ondas-nosotros.svg")'}}>
+            <div id="Nosotros" className="min-h-[90dvh] gap-8 flex flex-col items-center justify-evenly pb-[3dvh] lg:gap-5 lg:pt-[5dvh] bg-cover bg-no-repeat bg-[center_bottom_-0rem]" style={{backgroundImage: 'url("../../public/img/ondas-nosotros.svg")'}}>
                 <div>
-                    <h2 className="text-3 text-2xl lg:text-4xl">QUIENES SOMOS?</h2>
+                    <h2 className="text-3 text-2xl lg:text-4xl pt-[8dvh]">QUIENES SOMOS?</h2>
                 </div>
-                <div className="flex mx-[10dvw]">
-                    <p className="lg:text-2xl">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et illo quaerat quis necessitatibus, nemo ad assumenda impedit repellat quia adipisci repudiandae</p>
+                <div className="flex mx-[10dvw] gap-8 lg:gap-20 justify-center flex-wrap lg:flex-nowrap">
+                    <p className="lg:text-2xl text-justify leading-normal">Somos una agencia dedicada a la creatividad, consultoría y posicionamiento Web. Utilizando las herramientas tecnológicas adecuadas del Marketing digital para el Desarrollo de Ventas, a través de la interacción y los objetivos comerciales de cada uno de nuestros clientes. Nuestro equipo de Diseñadores, Desarrolladores y Creativos, nos mantienen actualizados, para avanzar en el mercado de la comercialización publicitaria.</p>
+                    <p className="lg:text-2xl text-justify leading-normal">El trabajo en equipo de FYMMAN Creativo se especializa en utilizar estrategias efectivas que se adaptan a diferentes Rubros comerciales. Cada anuncio será único. Llevamos e integramos a nuestros clientes, a formar parte de las plataformas digitales del mercado actual, impulsando así, al máximo, su potencial comercial.</p>
                 </div>
                 <div className="flex flex-col gap-3 ms-[10dvw]">
                     <div className="flex flex-row justify-start items-center gap-3 text-7">
@@ -28,7 +29,7 @@ export default function Nosotros(){
                     <div className=" rounded-full bg-9">
                         <img src="../../public/img/logo.png" className="w-[20dvh] aspect-auto" alt="" />
                     </div>
-                    <div className=" rounded-full bg-9">
+                    <div className=" rounded-full bg-9 ">
                         <img src="../../public/img/Logo-persona.png" className="w-[20dvh] aspect-auto" alt="" />
                     </div>
                 </div>

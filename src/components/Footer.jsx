@@ -3,7 +3,7 @@ export default function Footer(){
    /* CAMBIAR ICONO FOOTER */
     return(
         <>
-        <footer className=" left-0 bottom-0 w-full bg-9 pt-[3dvh]">
+        <footer className=" left-0 bottom-0 w-full bg-9 pt-[4dvh]">
             <section class=" top flex gap-[60%] justify-center align-middle items-center flex-wrap">
                 <div className="flex justify-center min-w-[20%] mb-1">
                     <a href="https://www.fymmancreativo.com/" className=" cursor-pointer w-1/2 min-w-58">
