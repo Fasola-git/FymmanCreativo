@@ -27,7 +27,6 @@ export default function Hamb({ onLinkClick }) {
 
   return (
     <>
-      <div>
         <svg
           className={`ham hamRotate ham8 absolute right-0 z-10 ${isActive ? 'active' : ''}`}
           viewBox="0 0 100 100"
@@ -57,7 +56,7 @@ export default function Hamb({ onLinkClick }) {
             </li>
             <li>
               <Link to="/" className='text-3xl tracking-wider overflow-hidden' onClick={() => handleLinkClick('/', 'Demanda')}>
-                Demanda
+                Comercial
               </Link>
             </li>
             <li>
@@ -77,7 +76,6 @@ export default function Hamb({ onLinkClick }) {
             </li>
           </ul>
         </nav>
-      </div>
     </>
   );
 }

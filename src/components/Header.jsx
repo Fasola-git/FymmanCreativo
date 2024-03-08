@@ -49,33 +49,33 @@ export default function Header(){
                     <ul className="menu list-none flex justify-center items-stretch gap-5">
                         <li className="flex justify-center w-24 ease-in-out transition-all duration-300 hover:text-3">
                             <Link to="/" onClick={() => handleLinkClick('/', 'Home')} className=" flex items-center justify-center h-full cursor-pointer no-underline relative px-2 before:absolute before:w-full before:h-[3px] before:-bottom-[12px] before:left-0 before:bg-3 before:ease-in-out before:transition-all before:duration-200 before:invisible">
-                                Inicio
+                                INICIO
                             </Link>
                         </li>
                         <li className="flex justify-center w-34 whitespace-nowrap ease-in-out transition-all duration-300 hover:text-3">
                             <Link to="/" className=" flex items-center justify-center h-full cursor-pointer no-underline relative px-2 before:absolute before:w-full before:h-[3px] before:-bottom-[12px] before:left-0 before:bg-3 before:ease-in-out before:transition-all before:duration-200 before:invisible" onClick={() => handleLinkClick('/', 'Demanda')}>
-                                Demanda
+                                COMERCIAL
                             </Link>
                         </li>
                         <li className="flex justify-center w-34 whitespace-nowrap ease-in-out transition-all duration-300 hover:text-3">            
                             <Link to="/nosotros" className=" flex items-center justify-center h-full cursor-pointer no-underline relative px-2 before:absolute before:w-full before:h-[3px] before:-bottom-[12px] before:left-0 before:bg-3 before:ease-in-out before:transition-all before:duration-200 before:invisible" onClick={() => handleLinkClick('/nosotros', 'Nosotros')}>
-                                Nosotros
+                                NOSOTROS
                             </Link>
                         </li>
                         <li className="flex justify-center w-24 ease-in-out transition-all duration-300 hover:text-3">
                             <Link to="/" className=" flex items-center justify-center h-full cursor-pointer no-underline relative px-2 before:absolute before:w-full before:h-[3px] before:-bottom-[12px] before:left-0 before:bg-3 before:ease-in-out before:transition-all before:duration-200 before:invisible" onClick={() => handleLinkClick('/', 'Servicios')}>
-                                Servicios
+                                SERVICIOS
                             </Link>
                         </li>
-                        <li className="flex justify-center w-24 ease-in-out transition-all duration-300 hover:text-3">
+                        <li className="flex justify-center w-34 ease-in-out transition-all duration-300 hover:text-3">
                             <Link to="/" className=" flex items-center justify-center h-full cursor-pointer no-underline relative px-2 before:absolute before:w-full before:h-[3px] before:-bottom-[12px] before:left-0 before:bg-3 before:ease-in-out before:transition-all before:duration-200 before:invisible" onClick={() => handleLinkClick('/', 'Contacto')}>
-                                Contacto
+                                CONTACTO
                             </Link>
                         </li>
                     </ul>
                 </nav>
             </header>
-            <div className="fixed z-10 lg:hidden">
+            <div className="fixed h-0 z-10 lg:hidden">
                 <Hamb onLinkClick={handleLinkClick}/>
             </div>
         </>

@@ -25,13 +25,33 @@ export default function Nosotros(){
                         <p className="lg:text-2xl">+54 9 381 4667 211</p>
                     </div>
                 </div>
-                <div className="flex flex-row gap-10 mx-[10dvw]">
-                    <div className=" rounded-full bg-9">
-                        <img src="../../public/img/logo.png" className="w-[20dvh] aspect-auto" alt="" />
+                <div className="flex flex-row gap-10 mx-[10dvw] justify-center flex-wrap">
+                    
+                    <div className="max-w-[20%] flex flex-col justify-center items-center gap-5">
+                        <div className=" rounded-full flex justify-center ">
+                            <img src="../../public/img/foto-1.png" className=" object-scale-down aspect-auto" alt="" />
+                        </div>
+                        <p>Ejecutivo Federico Solá</p>
                     </div>
-                    <div className=" rounded-full bg-9 ">
-                        <img src="../../public/img/Logo-persona.png" className="w-[20dvh] aspect-auto" alt="" />
+                    <div className="max-w-[20%] flex flex-col justify-center items-center gap-5">
+                        <div className=" rounded-full flex justify-center bg-9 ">
+                            <img src="../../public/img/foto-2.png" className="object-scale-down aspect-auto" alt="" />
+                        </div>
+                        <p>Ejecutivo Carlos Ortiz</p>
                     </div>
+                    <div className="max-w-[20%] flex flex-col justify-center items-center gap-5">
+                        <div className="rounded-full flex justify-center ">
+                            <img src="../../public/img/foto-3.jpg" className="object-scale-down rounded-full aspect-auto" alt="" />
+                        </div>
+                        <p>Desarrollador Web</p>
+                    </div>
+                    <div className="max-w-[20%] flex flex-col justify-center items-center gap-5">
+                        <div className="rounded-full flex justify-center ">
+                            <img src="../../public/img/foto-4.jpg" className="object-scale-down rounded-full aspect-auto" alt="" />
+                        </div>
+                        <p>Desarrollador Web</p>
+                    </div>
+{/* ARREGLAR POSICIONES FOTOS Y AÑADIR FOTOS DEBAJO DEL CARUSEL DE CLIENTES */}
                 </div>
             </div>
                 <img src="../../public/img/banner-contacto.png" className="aspect-auto lg:hidden" alt="" />

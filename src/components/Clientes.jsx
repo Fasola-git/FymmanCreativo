@@ -84,8 +84,8 @@ export default function Clientes(){
                 </div>
                 <div className="flex flex-col justify-center items-center">
                   <div className="Marquee flex w-full lg:w-full select-none overflow-hidden border-2 "> 
-                      <div className=" shrink-0 flex items-center justify-around overflow-hidden whitespace-nowrap w-[300%] lg:w-full animate-scrollX">
-                          <div className=" flex place-items-center w-full">
+                      <div className=" shrink-0 flex items-center overflow-hidden whitespace-nowrap w-[400%] lg:w-full animate-scrollX px-4 lg:px-2.5">
+                          <div className=" flex place-items-center gap-5 w-full">
                               <Cliente id={1}></Cliente>
                               <Cliente id={2}></Cliente>
                               <Cliente id={3}></Cliente>
@@ -99,8 +99,8 @@ export default function Clientes(){
                               <Cliente id={11}></Cliente>
                           </div>
                       </div>
-                      <div className=" shrink-0 flex items-center justify-around overflow-hidden whitespace-nowrap w-[300%] lg:w-full animate-scrollX">
-                          <div className=" flex place-items-center w-full">
+                      <div className=" shrink-0 flex overflow-hidden whitespace-nowrap w-[400%] lg:w-full animate-scrollX px-4 lg:px-2.5">
+                          <div className=" flex place-items-center gap-5 w-full">
                               <Cliente id={1}></Cliente>
                               <Cliente id={2}></Cliente>
                               <Cliente id={3}></Cliente>
@@ -116,8 +116,8 @@ export default function Clientes(){
                       </div>
                   </div>
                   <div className="Marquee flex w-full lg:w-full select-none overflow-hidden border-2 "> 
-                      <div className=" shrink-0 flex items-center justify-around overflow-hidden whitespace-nowrap w-[300%] lg:w-full animate-scrollXReverse">
-                          <div className=" flex place-items-center w-full">
+                      <div className=" shrink-0 flex items-center overflow-hidden whitespace-nowrap w-[400%] lg:w-full animate-scrollXReverse px-4 lg:px-2.5">
+                          <div className=" flex place-items-center gap-5 w-full">
                               <Cliente id={12}></Cliente>
                               <Cliente id={13}></Cliente>
                               <Cliente id={14}></Cliente>
@@ -129,10 +129,11 @@ export default function Clientes(){
                               <Cliente id={20}></Cliente>
                               <Cliente id={21}></Cliente>
                               <Cliente id={22}></Cliente>
+                              <Cliente id={23}></Cliente>
                           </div>
                       </div>
-                      <div className=" shrink-0 flex items-center justify-around overflow-hidden whitespace-nowrap w-[300%] lg:w-full animate-scrollXReverse">
-                          <div className=" flex place-items-center w-full">
+                      <div className=" shrink-0 flex items-center overflow-hidden whitespace-nowrap w-[400%] lg:w-full animate-scrollXReverse px-4 lg:px-2.5">
+                          <div className=" flex place-items-center gap-5 w-full">
                               <Cliente id={12}></Cliente>
                               <Cliente id={13}></Cliente>
                               <Cliente id={14}></Cliente>
@@ -144,12 +145,13 @@ export default function Clientes(){
                               <Cliente id={20}></Cliente>
                               <Cliente id={21}></Cliente>
                               <Cliente id={22}></Cliente>
+                              <Cliente id={23}></Cliente>
                           </div>
                       </div>
                   </div>
                 </div>
                 <div className="lg:flex lg:flex-row lg:justify-center lg:basis-1/12 pb-[15%] lg:pb-[5%]">
-                    <p className="text-2xl text-center lg:text-5xl text-6 mx-5 lg:mx-20">Vivimos en una comunidad que demanda Creatividad, nuestros clientes merecen y necesitan un cambio radical.</p>
+                    <p className="text-2xl text-center lg:text-5xl mx-5 lg:mx-20">Vivimos en una comunidad que demanda Creatividad, nuestros clientes merecen y necesitan un cambio radical.</p>
                 </div>
         </div>
       );
