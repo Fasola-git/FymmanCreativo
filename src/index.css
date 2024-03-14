@@ -290,6 +290,12 @@ p, button, h3, a{
   font-weight: 500;
 }
 
+section ul{
+  font-family: 'azo-sans';
+  font-size: larger;
+  font-weight: 500;
+}
+
 h1{
   font-family: 'lovelo';
 }
@@ -316,7 +322,7 @@ h2{
   );
 }
 /* footer section color */
-section.top {
+footer .top {
   border-bottom: 2px solid rgb(255 255 255 / 20%);
 }
 
