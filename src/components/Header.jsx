@@ -49,7 +49,7 @@ export default function Header(){
                 <div className=" top-w left-7 absolute flex-col flex-wrap hidden lg:flex overflow-hidden items-center">
                     <div className="socials flex items-center gap-3">
                         <a className="fa-brands fa-instagram text-2xl w-8 h-10 grid place-items-center rounded-full hover:text-3 transition-all duration-400"href="https://www.instagram.com/fymmancreativo/"></a>
-                        <a className="fa-brands fa-facebook text-2xl w-8 h-10 grid place-items-center rounded-[50%] hover:text-3 transition-all duration-400" href="https://www.facebook.com/fymmancreativo/"></a>
+                        <a className="fa-brands fa-facebook text-2xl w-8 h-10 grid place-items-center rounded-[50%] hover:text-3 transition-all duration-400" href="https://www.facebook.com/people/fymmancreativo/100094069947391/"></a>
                         <a className="fa-brands fa-whatsapp text-2xl w-8 h-10 grid place-items-center rounded-[50%] hover:text-3 transition-all duration-400" href="https://wa.me/93814667211?text=Hola!%20Me%20gustaría%20contactar%20con%20ustedes!"></a>
                         <a className="fa-brands fa-tiktok text-2xl w-5 h-10 grid place-items-center rounded-[50%] hover:text-3 transition-all duration-400" href="https://www.tiktok.com/@fymman.creativo"></a>
                     </div>
