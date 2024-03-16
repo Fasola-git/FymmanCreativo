@@ -21,7 +21,7 @@ export default function Contacto(){
                 </a>
 
                 <div className="flex justify-end">
-                    <a target="_blank" rel="noopener noreferrer" className="flex flex-row items-center justify-end lg:my-2 gap-6 lg:gap-8 w-fit me-2" href="https://www.facebook.com/fymmancreativo/">
+                    <a target="_blank" rel="noopener noreferrer" className="flex flex-row items-center justify-end lg:my-2 gap-6 lg:gap-8 w-fit me-2" href="https://www.facebook.com/people/fymmancreativo/100094069947391/">
                     <div className="flex flex-row gap-6 underline decoration-3 lg:gap-8 hover:text-3 items-center hover:gap-12 ease-in-out transition-all duration-300 hover:-translate-x-20">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" className="bi bi-facebook w-14 lg:w-24 mb-1 lg:mb-6 text-7" viewBox="0 0 16 16"> <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/> </svg>
                         <span className=" text-3xl font-bold lg:text-9xl md:text-5xl lg:text-inherit text-7">Facebook</span>
