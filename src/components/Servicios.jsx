@@ -7,7 +7,7 @@ export default function Servicios(){
             <div className=" grid grid-cols-1 lg:grid-cols-2 gap-y-10 lg:gap-y-16 mb-[15dvh]">
                 <div className=" flex flex-col gap-5 lg:gap-0 lg:flex-row items-center w-full lg:justify-evenly lg:h-full">
                     <div className="flex flex-col gap-5 mx-[5%] lg:gap-10 lg:w-1/2">
-                        <h3 className="text-2 text-xl md:text-3xl">MAGEN CORPORATIVA</h3>
+                        <h3 className="text-2 text-xl md:text-3xl">IMAGEN CORPORATIVA</h3>
                         <p className="text-2 text-lg md:text-2xl">La imagen corporativa es el significado que adquiere una empresa ante la sociedad, la misma repercute en la percepción de los productos, servicios y comunicación externa de una empresa.</p>
                     </div>
                     <div className="max-w-[65%] lg:max-w-[25%] rounded-full flex flex-col justify-center">
