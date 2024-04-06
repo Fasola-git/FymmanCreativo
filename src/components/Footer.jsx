@@ -18,6 +18,7 @@ export default function Footer(){
                         <a className="fa-brands fa-facebook text-xl w-9 h-9 grid place-items-center rounded-[50%] hover:text-3 transition-all duration-400" href="https://www.facebook.com/people/fymmancreativo/100094069947391/"></a>
                         <a className="fa-brands fa-whatsapp text-xl w-9 h-9 grid place-items-center rounded-[50%] hover:text-3 transition-all duration-400" href="https://wa.me/93814667211?text=Hola!%20Me%20gustaría%20contactar%20con%20ustedes!"></a>
                         <a className="fa-brands fa-tiktok text-xl w-5 h-10 grid place-items-center rounded-[50%] hover:text-3 transition-all duration-400" href="https://www.tiktok.com/@fymman.creativo"></a>
+                        <a className="fa-brands fa-linkedin text-2xl w-8 h-10 grid place-items-center rounded-[50%] hover:text-3 transition-all duration-400" href="https://www.linkedin.com/in/federico-solá-853058284/"></a>
                     </div>
                 </div>
             </section>

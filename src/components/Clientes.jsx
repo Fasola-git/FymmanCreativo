@@ -1,3 +1,4 @@
+import { CarouselCustomNavigation } from "./CarouselCustomNavigation";
 import Cliente from "./Cliente";
 
 export default function Clientes(){
@@ -135,6 +136,14 @@ export default function Clientes(){
                     </div>
                 </div>
             </div>
+
+            <div className="flex justify-center items-center">
+                <div className="lg:max-w-[50%]">
+                    <CarouselCustomNavigation className=""></CarouselCustomNavigation>
+                </div>
+            </div>
+
+
             <div className="lg:flex lg:flex-row lg:justify-center lg:basis-1/12 pb-[15%] lg:pb-[5%]">
                 <p className="text-2xl text-center lg:text-5xl mx-5 lg:mx-20">Vivimos en una comunidad que demanda Creatividad, nuestros clientes merecen y necesitan un cambio radical.</p>
             </div>

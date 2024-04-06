@@ -48,7 +48,7 @@ export default function Servicios(){
                 <div className=" flex flex-col gap-5 lg:gap-0 lg:flex-row items-center w-full lg:justify-evenly lg:h-full">
                     <div className="flex flex-col gap-5 mx-[5%] lg:gap-10 lg:w-1/2">
                         <h3 className="text-2 text-xl md:text-3xl">IDENTIDAD SONORA </h3>
-                        <p className="text-2 text-lg md:text-2xl">Puede ser definida como el conjunto de rasgos sonoros. Es la identidad característica de un conjunto de: Melodías y Frases comerciales de una Marca. Profundica la identificación de la empresa a tal punto que el consumidor interpreta como propio, parte de él.</p>
+                        <p className="text-2 text-lg md:text-2xl">Puede ser definida como el conjunto de rasgos sonoros. Es la identidad característica de un conjunto de: Melodías y Frases comerciales de una Marca. Profundiza la identificación de la empresa a tal punto que el consumidor interpreta como propio, parte de él.</p>
                     </div>
                     <div className="max-w-[50%] lg:max-w-[25%] flex flex-col justify-center items-center ">
                         <div className="flex flex-row rounded-full bg-1">

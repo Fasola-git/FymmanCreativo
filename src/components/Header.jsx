@@ -52,6 +52,7 @@ export default function Header(){
                         <a className="fa-brands fa-facebook text-2xl w-8 h-10 grid place-items-center rounded-[50%] hover:text-3 transition-all duration-400" href="https://www.facebook.com/people/fymmancreativo/100094069947391/"></a>
                         <a className="fa-brands fa-whatsapp text-2xl w-8 h-10 grid place-items-center rounded-[50%] hover:text-3 transition-all duration-400" href="https://wa.me/93814667211?text=Hola!%20Me%20gustaría%20contactar%20con%20ustedes!"></a>
                         <a className="fa-brands fa-tiktok text-2xl w-5 h-10 grid place-items-center rounded-[50%] hover:text-3 transition-all duration-400" href="https://www.tiktok.com/@fymman.creativo"></a>
+                        <a className="fa-brands fa-linkedin text-2xl w-8 h-10 grid place-items-center rounded-[50%] hover:text-3 transition-all duration-400" href="https://www.linkedin.com/in/federico-solá-853058284/"></a>
                     </div>
                     <div className="flex items-center">
                         <i className="fa-solid fa-phone text-base w-6 h-6 text-3 grid place-items-center"></i>
