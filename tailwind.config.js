@@ -17,6 +17,7 @@ module.exports = withMT({
       7: '#3f3595',
       8: '#f15934',
       9: '#463c61',
+      10: '#171717',
     },
     keyframes: {
       scrollX: {

@@ -44,7 +44,7 @@ export default function Hamb({ onLinkClick }) {
           />
         </svg>
         <nav
-          className={` w-screen h-screen bg-neutral-900 opacity-95 top-0 right-0 transform ${
+          className={` w-screen h-screen bg-10 opacity-95 top-0 right-0 transform ${
             isActive ? 'translate-x-0' : 'translate-x-full'
           } transition-transform duration-300`}
         >
