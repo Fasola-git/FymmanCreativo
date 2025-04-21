@@ -69,12 +69,12 @@ export function CarouselCustomNavigation() {
       <div className="flex flex-row justify-center">
         <a href="https://www.instagram.com/reel/C3_ef_dIXuf/?utm_source=ig_web_copy_link" className="relative max-w-[50%] mb-10 shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)]">
                       <div className="relative overflow-hidden">
-                          <img src="../../public/img/flyer (1).png" alt="" className="w-full max-h-[586px]" />
+                          <img src="../../img/flyer (1).png" alt="" className="w-full max-h-[586px]" />
                           <div className="absolute inset-0 bg-gradient-to-t from-black/75 from-10% via-transparent bg-opacity-0 hover:bg-opacity-50 flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-300">
-                          <p className="text-1 absolute bottom-12">Ir a la publicidad &gt;</p>
+                          <p className="text-1 absolute bottom-12">Ir a laidad &gt;</p>
                           </div>
                           <div className="absolute lg:hidden inset-0 bg-gradient-to-t from-black/75 from-10% via-transparent flex items-center justify-center transition-opacity duration-300">
-                          <p className="text-1 absolute bottom-6 text-lg">Ir a la publicidad &gt;</p>
+                          <p className="text-1 absolute bottom-6 text-lg">Ir a laidad &gt;</p>
                           </div>
                       </div>
         </a>
@@ -82,12 +82,12 @@ export function CarouselCustomNavigation() {
       <div className="flex flex-row justify-center">
         <a href="https://www.instagram.com/reel/C3527bRr26S/?utm_source=ig_web_copy_link" className="relative max-w-[50%] shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)]">
                       <div className="relative overflow-hidden">
-                          <img src="../../public/img/flyer (2).png" alt="" className="w-full max-h-[586px]" />
+                          <img src="../../img/flyer (2).png" alt="" className="w-full max-h-[586px]" />
                           <div className="absolute inset-0 bg-gradient-to-t from-black/75 from-10% via-transparent bg-opacity-0 hover:bg-opacity-50 flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-300">
-                          <p className="text-1 absolute bottom-12">Ir a la publicidad &gt;</p>
+                          <p className="text-1 absolute bottom-12">Ir a laidad &gt;</p>
                           </div>
                           <div className="absolute lg:hidden inset-0 bg-gradient-to-t from-black/75 from-10% via-transparent flex items-center justify-center transition-opacity duration-300">
-                          <p className="text-1 absolute bottom-6 text-lg">Ir a la publicidad &gt;</p>
+                          <p className="text-1 absolute bottom-6 text-lg">Ir a laidad &gt;</p>
                           </div>
                       </div>
         </a>
@@ -95,12 +95,12 @@ export function CarouselCustomNavigation() {
       <div className="flex flex-row justify-center">
         <a href="https://www.instagram.com/reel/C2_FTDNBxIJ/?utm_source=ig_web_copy_link" className="relative max-w-[50%] shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)]">
                       <div className="relative overflow-hidden">
-                          <img src="../../public/img/flyer (3).png" alt="" className="w-full max-h-[586px]" />
+                          <img src="../../img/flyer (3).png" alt="" className="w-full max-h-[586px]" />
                           <div className="absolute inset-0 bg-gradient-to-t from-black/75 from-10% via-transparent bg-opacity-0 hover:bg-opacity-50 flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-300">
-                          <p className="text-1 absolute bottom-12">Ir a la publicidad &gt;</p>
+                          <p className="text-1 absolute bottom-12">Ir a laidad &gt;</p>
                           </div>
                           <div className="absolute lg:hidden inset-0 bg-gradient-to-t from-black/75 from-10% via-transparent flex items-center justify-center transition-opacity duration-300">
-                          <p className="text-1 absolute bottom-6 text-lg">Ir a la publicidad &gt;</p>
+                          <p className="text-1 absolute bottom-6 text-lg">Ir a laidad &gt;</p>
                           </div>
                       </div>
         </a>

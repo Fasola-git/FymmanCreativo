@@ -5,7 +5,7 @@ export default function Footer(){
             <section className=" top flex gap-[60%] justify-center align-middle items-center flex-wrap">
                 <div className="flex justify-center min-w-[20%] mb-1">
                     <a href="https://www.fymmancreativo.com/" className=" cursor-pointer w-1/2 min-w-58">
-                            <img src="../../public/img/LOGO_BASE_BLANCO.svg" className="w-full cursor-pointer min-w-full " alt="fymannlogo" />
+                            <img src="../../img/LOGO_BASE_BLANCO.svg" className="w-full cursor-pointer min-w-full " alt="fymannlogo" />
                     </a>
                 </div>                    
                 <div className=" flex flex-col px-10 items-center">

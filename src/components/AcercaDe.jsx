@@ -1,7 +1,7 @@
 
 export default function AcercaDe(){      
     return(
-            <section id="Demanda" className="min-h-[100dvh] bg-cover bg-no-repeat bg-[center_bottom_-3rem] flex flex-col gap-4" style={{backgroundImage: 'url("../../public/img/Ondas.svg")',}} >
+            <section id="Demanda" className="min-h-[100dvh] bg-cover bg-no-repeat bg-[center_bottom_-3rem] flex flex-col gap-4" style={{backgroundImage: 'url("../../img/Ondas.svg")',}} >
                 <div className="flex flex-row ms-[7%] lg:ms-[11%] justify-start ">
                     <h2 className="text-6 text-3xl md:text-5xl lg:my-5">Demanda Comercial</h2>
                 </div>

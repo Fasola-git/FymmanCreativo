@@ -3,12 +3,12 @@ export default function Nosotros(){
     
     return(
         <>
-            <section id="Nosotros" className="min-h-[90dvh] gap-8 flex flex-col items-center justify-evenly pb-[3dvh] lg:gap-5 lg:pt-[5dvh] bg-cover bg-no-repeat bg-[center_bottom_-0rem]" style={{backgroundImage: 'url("../../public/img/ondas-nosotros.svg")'}}>
+            <section id="Nosotros" className="min-h-[90dvh] gap-8 flex flex-col items-center justify-evenly pb-[3dvh] lg:gap-5 lg:pt-[5dvh] bg-cover bg-no-repeat bg-[center_bottom_-0rem]" style={{backgroundImage: 'url("../../img/ondas-nosotros.svg")'}}>
                 <div>
                     <h2 className="text-3 text-2xl md:text-4xl pt-[8dvh]">QUIENES SOMOS?</h2>
                 </div>
                 <div className="flex mx-[10dvw] gap-8 lg:gap-20 justify-center flex-wrap lg:flex-nowrap">
-                    <p className="md:text-2xl text-justify leading-normal">Somos una agencia dedicada a la creatividad, consultoría y posicionamiento Web. Utilizando las herramientas tecnológicas adecuadas del Marketing digital para el Desarrollo de Ventas, a través de la interacción y los objetivos comerciales de cada uno de nuestros clientes. Nuestro equipo de Diseñadores, Desarrolladores y Creativos, nos mantienen actualizados, para avanzar en el mercado de la comercialización publicitaria.</p>
+                    <p className="md:text-2xl text-justify leading-normal">Somos una agencia dedicada a la creatividad, consultoría y posicionamiento Web. Utilizando las herramientas tecnológicas adecuadas del Marketing digital para el Desarrollo de Ventas, a través de la interacción y los objetivos comerciales de cada uno de nuestros clientes. Nuestro equipo de Diseñadores, Desarrolladores y Creativos, nos mantienen actualizados, para avanzar en el mercado de la comercializaciónitaria.</p>
                     <p className="md:text-2xl text-justify leading-normal">El trabajo en equipo de FYMMAN Creativo se especializa en utilizar estrategias efectivas que se adaptan a diferentes Rubros comerciales. Cada anuncio será único. Llevamos e integramos a nuestros clientes, a formar parte de las plataformas digitales del mercado actual, impulsando así, al máximo, su potencial comercial.</p>
                 </div>
                 <div className="flex flex-col gap-3 ms-[10dvw]">
@@ -29,14 +29,14 @@ export default function Nosotros(){
                     
                     <div className="flex flex-col justify-center items-center gap-5 lg:max-w-[20%] max-w-[50%] ">
                         <div className="rounded-full flex justify-center">
-                            <img src="../../public/img/foto-1.png" className="" alt="" />
+                            <img src="../../img/foto-1.png" className="" alt="" />
                         </div>
                         <p className="underline">Ejecutivo </p>
                         <p className="text-xl">Federico Solá</p>
                     </div>
                     <div className="flex flex-col justify-center items-center gap-5 lg:max-w-[20%] max-w-[50%]">
                         <div className=" rounded-full flex justify-center bg-9">
-                            <img src="../../public/img/foto-2.png" className="" alt="" />
+                            <img src="../../img/foto-2.png" className="" alt="" />
                         </div>
                         <div className="flex flex-col gap-3 items-center justify-center">
                             <p className="underline">Ejecutivo </p>
@@ -45,7 +45,7 @@ export default function Nosotros(){
                     </div>
                     <div className="flex flex-col justify-center items-center gap-5 lg:max-w-[20%] max-w-[50%]">
                         <div className="rounded-full flex justify-center ">
-                            <img src="../../public/img/foto-3.jpg" className="rounded-full" alt="" />
+                            <img src="../../img/foto-3.jpg" className="rounded-full" alt="" />
                         </div>
                         <div className="flex flex-col gap-3 items-center justify-center">
                             <p className="underline">Desarrollador Web </p>
@@ -54,7 +54,7 @@ export default function Nosotros(){
                     </div>
                 </div>
             </section>
-                <img src="../../public/img/banner-contacto.png" className="aspect-auto lg:hidden" alt="" />
+                <img src="../../img/banner-contacto.png" className="aspect-auto lg:hidden" alt="" />
         </>
     )
 }

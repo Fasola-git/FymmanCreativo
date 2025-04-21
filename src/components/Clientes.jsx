@@ -8,7 +8,7 @@ export default function Clientes(){
             <div className="flex flex-col gap-5 lg:gap-0 min-h-[100dvh]">
                 <div className="flex flex-row justify-between items-center mx-[5%] lg:mx-[10%]">
                     <div className=" w-5/12 lg:w-2/12 ">
-                        <img src="../../public/img/tumarca-persona.png" alt="" className=" left-[25%]" />
+                        <img src="../../img/tumarca-persona.png" alt="" className=" left-[25%]" />
                     </div>
                     <div className="flex flex-col gap-1 lg:gap-5 w-6/12 lg:w-1/2 ">
                         <h3 className="text-6 text-xl md:text-3xl"><span className="text-8 text-2xl md:text-4xl">-</span>TU MARCA</h3>
@@ -21,12 +21,12 @@ export default function Clientes(){
                         <p className="text-9 text-lg md:text-2xl">Construimos tu marca en línea con nuestros servicios de diseño web.</p>
                     </div>
                     <div className="w-5/12 lg:w-3/12">
-                        <img src="../../public/img/tuweb-persona.png" alt="" className="  left-[25%]" />
+                        <img src="../../img/tuweb-persona.png" alt="" className="  left-[25%]" />
                     </div>
                 </div>
                 <div className="flex flex-row justify-between items-center mx-[5%] lg:mx-[10%]">
                     <div className="w-5/12 lg:w-2/12 ">
-                        <img src="../../public/img/jingle-persona.png" alt="" className=" left-[25%] -top-24" />
+                        <img src="../../img/jingle-persona.png" alt="" className=" left-[25%] -top-24" />
                     </div>
                     <div className="flex flex-col gap-1 lg:gap-5 w-6/12 lg:w-1/2">
                         <h3 className="text-6 text-xl md:text-3xl"><span className="text-8 text-2xl md:text-4xl">-</span>JINGLE</h3>
@@ -39,12 +39,12 @@ export default function Clientes(){
                         <p className="text-9 text-lg md:text-2xl">Realizamos la creación de Videos Institucionales, generando el interés de los clientes adecuados.</p>
                     </div>
                     <div className="w-5/12 lg:w-2/12">
-                        <img src="../../public/img/video-persona.png" alt="" className="" />
+                        <img src="../../img/video-persona.png" alt="" className="" />
                     </div>
                 </div>
                 <div className="flex flex-row justify-between items-center mx-[5%] lg:mx-[10%]">
                     <div className="w-5/12 lg:w-2/12 ">
-                        <img src="../../public/img/fotoproducto-persona.png" alt="" className=" left-[25%] -top-24" />
+                        <img src="../../img/fotoproducto-persona.png" alt="" className=" left-[25%] -top-24" />
                     </div>
                     <div className="flex flex-col gap-1 lg:gap-5 w-6/12 lg:w-1/2">
                         <h3 className="text-6 text-xl md:text-3xl"><span className="text-8 text-2xl md:text-4xl">-</span>FOTO-PRODUCTO</h3>
@@ -57,12 +57,12 @@ export default function Clientes(){
                         <p className="text-9 text-lg md:text-2xl">Crearemos el "Contenido Adecuado"para tu Negocio o Emprendiento.</p>
                     </div>
                     <div className="w-5/12 lg:w-2/12">
-                        <img src="../../public/img/impulsamos-persona.png" alt="" className=" left-[25%]" />
+                        <img src="../../img/impulsamos-persona.png" alt="" className=" left-[25%]" />
                     </div>
                 </div>
                 <div className="flex flex-row justify-between items-center mx-[5%] lg:mx-[10%]">
                     <div className="w-5/12 lg:w-1/6 ">
-                        <img src="../../public/img/gestiona-persona.png" alt="" className=" left-[25%] -top-24" />
+                        <img src="../../img/gestiona-persona.png" alt="" className=" left-[25%] -top-24" />
                     </div>
                     <div className="flex flex-col gap-1 lg:gap-5 w-6/12 lg:w-1/2">
                         <h3 className="text-6 text-xl md:text-3xl"><span className="text-8 text-2xl md:text-4xl">-</span>GESTIONA</h3>

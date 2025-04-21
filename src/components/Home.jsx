@@ -10,7 +10,7 @@ export default function Home() {
                             <h6 className="text-3xl lg:text-6xl md:text-5xl lg:ps-1 text-3">CREATIVO</h6>
                         </div>
                         <div>
-                            <p className="lg:text-4xl md:text-3xl lg:ps-3 text-9">Agencia de Publicidad & </p>
+                            <p className="lg:text-4xl md:text-3xl lg:ps-3 text-9">Agencia de publicidad & </p>
                             <p className="lg:text-4xl md:text-3xl lg:ps-3 text-9">Maketing Digital</p>
                         </div>
                         <div>
@@ -22,9 +22,9 @@ export default function Home() {
                 </div>
 
                 <div className="lg:flex lg:flex-col md:flex md:flex-col lg:items-center lg:w-1/3 gap-5">
-                    <img src="../../public/img/Logo-persona.png" className="lg:w-10/12 md:w-3/4 place-self-center" alt="" />
+                    <img src="../../img/Logo-persona.png" className="lg:w-10/12 md:w-3/4 place-self-center" alt="" />
                     <div className="flex flex-row gap-4 items-center w-full justify-center lg:pe-4">
-                        <img src="../../public/img/logo.png" className="w-10 md:w-14 lg:w-20 " alt="" />
+                        <img src="../../img/logo.png" className="w-10 md:w-14 lg:w-20 " alt="" />
                         <div className="pr-3 lg:pr-0 flex flex-col">
                             <h1 className="text-7 text-2xl md:text-2xl lg:text-4xl place-self-center">FYMMAN</h1>
                             <h6 className="lg:text-xl text-3 md:text-2xl lg:tracking-widest place-self-center">C R E A T I V O</h6>

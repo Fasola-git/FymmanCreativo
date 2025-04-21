@@ -9,7 +9,7 @@ export default function Contacto(){
                 </div>
                 <p className="text-2xl lg:text-5xl md:text-3xl text-6 text-center leading-normal">Estas a un paso de actualizar tu negocio.</p>
             </div>
-            <div className="flex flex-col gap-12 bg-cover bg-no-repeat bg-[center_bottom_-3rem] pb-[5%]" style={{backgroundImage: 'url("../../public/img/Linea.svg")'}}>
+            <div className="flex flex-col gap-12 bg-cover bg-no-repeat bg-[center_bottom_-3rem] pb-[5%]" style={{backgroundImage: 'url("../../img/Linea.svg")'}}>
                 
                 <a target="_blank" rel="noopener noreferrer" className="flex flex-row items-center justify-start lg:my-2 gap-6 lg:gap-8 w-fit ms-2" href="https://www.instagram.com/fymmancreativo/">
                     <svg stroke="currentColor" fill="currentColor" strokeWidth="100" viewBox="0 0 512 512" height="4rem" width="4rem" className="text-accent text-xl sm:text-2xl text-8 lg:mb-1" xmlns="http://www.w3.org/2000/svg">
@@ -60,7 +60,7 @@ export default function Contacto(){
                         y la actualidad demanda de cada Empresa y/o Marca. </p>
                 </div>
             </div>
-            <div className="flex flex-col gap-8 bg-6 bg-cover bg-no-repeat bg-[center_bottom_-0rem]" style={{backgroundImage: 'url("../../public/img/Ondas3.svg")'}}>
+            <div className="flex flex-col gap-8 bg-6 bg-cover bg-no-repeat bg-[center_bottom_-0rem]" style={{backgroundImage: 'url("../../img/Ondas3.svg")'}}>
                 <div className="flex flex-row ms-[7%] lg:ms-[11%] justify-start mt-10 ">
                     <div className="flex gap-3 ">
                         <i className="fa-solid fa-location-dot text-4xl text-3 grid place-items-center lg:pb-1"href=""></i>
