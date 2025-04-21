@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Capa_2" data-name="Capa 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 117 28.16">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        filter: url(#drop-shadow-1);
+      }
+
+      .cls-3 {
+        clip-path: url(#clippath);
+      }
+    </style>
+    <filter id="drop-shadow-1" filterUnits="userSpaceOnUse">
+      <feOffset dx="5" dy="1"/>
+      <feGaussianBlur result="blur" stdDeviation="15"/>
+      <feFlood flood-color="#fff" flood-opacity=".4"/>
+      <feComposite in2="blur" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clippath">
+      <rect class="cls-1" width="117" height="28.16"/>
+    </clipPath>
+  </defs>
+  <g id="Capa_1-2" data-name="Capa 1">
+    <g class="cls-2">
+      <g class="cls-3">
+        <image width="428" height="103" transform="scale(.27)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAasAAABmCAYAAAB1EL6zAAAACXBIWXMAAChyAAAocgF7isG5AAAJOUlEQVR4nGJUU1T6zzAKUAATE/NDPj4h+dFQwQ5ExEeDBhuYPK198DlqkADG1w8ffvGPH004OIDu80eD0l2DBDQyMjI2AAAAAP//YhrpoTAKRsEoGAWjYJADBgYGAAAAAP//Gq2sRsEoGAWjYBQMbsDAwAAAAAD//xqtrEbBKBgFo2AUDG7AwMAAAAAA//8araxGwSgYBaNgFAxuwMDAAAAAAP//Gq2sRsEoGAWjYBQMbsDAwAAAAAD//xqtrEbBKBgFo2AUDG7AwMAAAAAA//8araxGwSgYBaNgFAxuwMDAAAAAAP//Gq2sRsEoGAWjYBQMbsDAwAAAAAD//xqtrEbBKBgFo2AUDG7AwMAAAAAA//8araxGwSgYBaNgFAxuwMDAAAAAAP//Gq2sRsEoGAWjYBQMbsDAwAAAAAD//xqtrEbBKBgFo2AUDG7AwMAAAAAA//8araxGwSgYBaNgFAxuwMDAAAAAAP//Gq2sRsEoGAWjYBQMbsDAwAAAAAD//xqtrEbBKBgFo2AUDG7AwMAAAAAA//8araxGwSgYBaNgFAxuwMDAAAAAAP//Gq2sRsEoGAWjYBQMbsDAwAAAAAD//xqtrEbBKBgFo2AUDG7AwMAAAAAA//8araxGwSgYBaNgFAxuwMDAAAAAAP//Gq2sRsEoGAWjYBQMbsDAwAAAAAD//xqtrEbBKBgFo2AUDG7AwMAAAAAA//8araxGwSgYBaNgFAxuwMDAAAAAAP//Gq2sRsEoGAWjYBQMbsDAwAAAAAD//xqtrEbBKBgFo2AUDG7AwMAAAAAA//8araxGwSgYBaNgFAxuwMDAAAAAAP//Gq2sRsEoGAWjYBQMbsDAwAAAAAD//xqtrEbBKBgFo2AUDG7AwMAAAAAA//8araxGwSgYBaNgFAxuwMDAAAAAAP//Gq2sRsEoGAWjYBQMbsDAwAAAAAD//xqtrEbBKBgFo2AUDG7AwMAAAAAA//8araxGwSgYBaNgFAxuwMDAAAAAAP//Gq2sRsEoGAWjYBQMbsDAwAAAAAD//xqtrEbBKBgFo2AUDG7AwMAAAAAA//8araxGwSgYBaNgFAxuwMDAAAAAAP//Gq2sRsEoGAWjYBQMbsDAwAAAAAD//xqtrEbBKBgFo2AUDG7AwMAAAAAA//8araxGwSgYBaNgFAxuwMDAAAAAAP//Gq2sRsEoGAWjYBQMbsDAwAAAAAD//xqtrEbBKBgFo2AUDG7AwMAAAAAA//8araxGwSgYBaNgFAxuwMDAAAAAAP//Gq2sRsEoGAWjYBQMbsDAwAAAAAD//xqtrEbBKBgFo2AUDG7AwMAAAAAA//8araxGwSgYBaNgFAxuwMDAAAAAAP//Gq2sRsEoGAWjYBQMbsDAwAAAAAD//xqtrEbBKBgFo2AUDG7AwMAAAAAA//8araxGwSgYBaNgFAxuwMDAAAAAAP//Gq2sRsEoGAWjYBQMbsDAwAAAAAD//xqtrEbBKBgFo2AUDG7AwMAAAAAA//8araxGwSgYBaNgFAxuwMDAAAAAAP//Gq2sRsEoGAWjYBQMbsDAwAAAAAD//xqtrEbBKBgFo2AUDG7AwMAAAAAA//8araxGwSgYBaNgFAxuwMDAAAAAAP//Gq2sRsEoGAWjYBQMbsDAwAAAAAD//xqtrEbBKBgFo2AUDG7AwMAAAAAA//8araxGwSgYBaNgFAxuwMDAAAAAAP//Gq2sRsEoGAWjYBQMbsDAwAAAAAD//xqtrEbBKBgFo2AUDG7AwMAAAAAA//8araxGwSgYBaNgFAxuwMDAAAAAAP//Gq2sRsEoGAWjYBQMbsDAwAAAAAD//xqtrEbBKBgFo2AUDG7AwMAAAAAA//8araxGwSgYBaNgFAxuwMDAAAAAAP//Gq2sRsEoGAWjYBQMbsDAwAAAAAD//xqtrEbBKBgFo2AUDG7AwMAAAAAA//8araxGwSgYBaNgFAxuwMDAAAAAAP//Gq2sRsEoGAWjYBQMbsDAwAAAAAD//xqtrEbBKBgFo2AUDG7AwMAAAAAA//8araxGwSgYBaNgFAxuwMDAAAAAAP//Gq2sRsEoGAWjYBQMbsDAwAAAAAD//xqtrEbBKBgFo2AUDG7AwMAAAAAA//8araxGwSgYBaNgFAxuwMDAAAAAAP//Gq2sRsEoGAWjYBQMbsDAwAAAAAD//xqtrEbBKBgFo2AUDG7AwMAAAAAA//8araxGwSgYBaNgFAxuwMDAAAAAAP//Gq2sRsEoGAWjYBQMbsDAwAAAAAD//xqtrEbBKBgFo2AUDG7AwMAAAAAA//8araxGwSgYBaNgFAxuwMDAAAAAAP//Gq2sRsEoGAWjYBQMbsDAwAAAAAD//xqtrEbBKBgFo2AUDG7AwMAAAAAA//8araxGwSgYBaNgFAxuwMDAAAAAAP//Gq2sRsEoGAWjYBQMbsDAwAAAAAD//xqtrEbBKBgFo2AUDG7AwMAAAAAA//8araxGwSgYBaNgFAxuwMDAAAAAAP//Gq2sRsEoGAWjYBQMbsDAwAAAAAD//xqtrEbBKBgFo2AUDG7AwMAAAAAA//8araxGwSgYBaNgFAxuwMDAAAAAAP//Gq2sRsEoGAWjYBQMbsDAwAAAAAD//xqtrEbBKBgFo2AUDG7AwMAAAAAA//8araxGwSgYBaNgFAxuwMDAAAAAAP//Gq2sRsEoGAWjYBQMbsDAwAAAAAD//xqtrEbBKBgFo2AUDG7AwMAAAAAA//8araxGwSgYBaNgFAxuwMDAAAAAAP//Gq2sRsEoGAWjYBQMbsDAwAAAAAD//xqtrEbBKBgFo2AUDG7AwMAAAAAA//8araxGwSgYBaNgFAxuwMDAAAAAAP//Gq2sRsEoGAWjYBQMbsDAwAAAAAD//xqtrEbBKBgFo2AUDG7AwMAAAAAA//8araxGwSgYBaNgFAxuwMDAAAAAAP//Gq2sRsEoGAWjYBQMbsDAwAAAAAD//xqtrEbBKBgFo2AUDG7AwMAAAAAA//9iYWBgcByNJlTAwszKxcDA8G0wuWkwgb9/f/MwM7N+GenhgA72bttrwMXN/cXS3uLO4HLZwIN/ty6O5ik84NfD6zxs8pqjeQo7eMDAwMAAAAAA//8axaNgFIyCUTAKBjdgYGAAAAAA//8DAAL7H6IzN5eDAAAAAElFTkSuQmCC"/>
+      </g>
+    </g>
+  </g>
+</svg>
